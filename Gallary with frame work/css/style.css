@@ -1,0 +1,36 @@
+.container{
+    position: relative;
+}
+.gallery{
+    position: relative;
+    border-right: 1px solid #ccc
+}
+.gallery img{
+    margin: 5px
+}
+.preview_panel{
+    right: 20px;
+    top: 0
+}
+.lightbox .lb-image{
+    margin: auto
+}
+.lb-nav a.lb-next{
+    background: url(../img/lightbox/next.png) right 48% no-repeat;
+}
+.lb-nav a.lb-prev{
+    background: url(../img/lightbox/prev.png) left 48% no-repeat;
+}
+.lb-data .lb-close{
+    background: url(../img/lightbox/close.png) top right no-repeat;
+}
+.lb-cancel{
+    background: url(../img/lightbox/loading.gif) no-repeat;
+}
+
+@media (min-width: 765px) and (max-width: 900px){
+    .preview_panel{
+        right: 10px;
+        top: 0
+    }
+}
